@@ -2395,7 +2395,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_faq.scss */
 .courses_details_info {
-  padding-top: 190px;
+  padding-top: 170px;
 }
 
 @media (max-width: 767px) {
@@ -3216,7 +3216,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_testmonial.scss */
 .testimonial_bg_1 {
-  background-image: url(../img/testmonial/testmonial.png);
+  background-image: url(../img/testmonial/caroussel_bg.png);
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_testmonial.scss */
