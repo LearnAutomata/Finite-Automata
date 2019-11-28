@@ -2919,7 +2919,7 @@ h3 {
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_course_details.scss */
 .courses_details_banner {
   background-image: url(../img/banner/bradcam2.png);
-  padding-top: 286px;
+  padding-top: 180px;
   padding-bottom: 186px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3017,7 +3017,7 @@ h3 {
 /* line 75, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_course_details.scss */
 .courses_details_info {
   padding-top: 100px;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
 
 @media (max-width: 767px) {
@@ -3037,20 +3037,21 @@ h3 {
 
 /* line 87, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_course_details.scss */
 .courses_details_info .single_courses h3.second_title {
-  margin-top: 52px;
+  margin-top: 10px;
 }
 
 /* line 91, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_course_details.scss */
 .courses_details_info .single_courses p {
   font-size: 17px;
+  font-weight: bold;
   line-height: 21px;
-  margin-bottom: 0;
+  margin-bottom: 80px;
 }
 
 /* line 97, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_course_details.scss */
 .courses_details_info .courses_sidebar {
   position: relative;
-  margin-top: -400px;
+  margin-top: -550px;
 }
 
 @media (max-width: 767px) {
@@ -3075,18 +3076,22 @@ h3 {
 /* line 114, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_course_details.scss */
 .courses_details_info .courses_sidebar .video_thumb img {
   width: 100%;
+  padding: 3px;
+  border: 5px dashed #bf42f5;
+  margin-bottom: 100px;
+
 }
 
 /* line 117, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_course_details.scss */
 .courses_details_info .courses_sidebar .video_thumb a {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 37%;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  background: #FD8E5E;
+  background: red;
   width: 90px;
   height: 90px;
   color: #fff;
@@ -3161,9 +3166,9 @@ h3 {
 
 /* line 177, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_course_details.scss */
 .courses_details_info .courses_sidebar .feedback_info {
-  border: 1px solid #E8E8E8;
-  padding: 35px;
-  margin-top: 40px;
+  border: 10px groove #6c42f5;
+  padding: 10px;
+  margin-top: 120px;
 }
 
 @media (max-width: 767px) {
@@ -3181,6 +3186,7 @@ h3 {
   font-family: "Poppins", sans-serif;
   margin-bottom: 27px;
 }
+
 
 /* line 191, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_course_details.scss */
 .courses_details_info .courses_sidebar .feedback_info p {
