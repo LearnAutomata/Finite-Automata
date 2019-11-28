@@ -3169,6 +3169,7 @@ h3 {
   border: 10px groove #6c42f5;
   padding: 10px;
   margin-top: 120px;
+  background-image: linear-gradient(blue, violet);
 }
 
 @media (max-width: 767px) {
