@@ -113,6 +113,10 @@
                                         aria-controls="home" aria-selected="true">Deterministic Finite Automata Example</a>
                                 </li>
                                 <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                        aria-controls="profile" aria-selected="false">Try Exercise: Finite State Automata Simulator</a>
+                                </li>
+                                <li class="nav-item">
                                     <a class="nav-link" id="design-tab" data-toggle="tab" href="#design" role="tab"
                                         aria-controls="design" aria-selected="false">Non-Deterministic Finite Automata Example</a>
                                 </li>
@@ -147,7 +151,39 @@
                         <img src="img/dfaex3.png">
                         <p style="color:black">The strings that will be generated for this particular languages are 000, 0001, 1000, 10001, .... in which 0 always appears in a clump of 3. The transition graph is as follows:</p>
                     </div>
-                    
+
+
+                    <!--Simulator-->
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <script src="zeroOne.js"></script>
+                          <p style="color: black font-size:15px"><i>Check out the original project and its repository </i><a href="https://github.com/ShahZafrani/js-dfa">Here</a></p>
+                      <div id="description" class="container">
+                        <h1 style="font-size: 25px align-items-center">FINITE STATE AUTOMATA SIMULATOR</h1>
+                        <p5 style="color:blue font-size: 25px"><b>Let:<br>
+                               States-> Q = {q0, q1, q2} <br>
+                               Input-> ∑ = {0, 1} <br>
+                               Initial State-> q = {a0} <br>
+                              Final State-> F = {q2}</b></p>
+                        <img id="dfa-diagram" src="images/zeroesThenOnesDFA.svg" style='width:50%;' border="0" alt="Null">
+                        <br><h3 style="font-size: 15px">This DFA will only accept input that follow the language: {0*1*}</h3><br>
+                      </div>
+                      <div id="DFA">
+                        <input id="streamInput" label="Stream Input" value="01" onkeydown="if (event.keyCode == 13) { beginValidation()}">
+                        <button onclick="beginValidation()">Validate Stream</button>
+                      </div>
+                      <div id="transitionDiv">
+                      <p5 style="color:black font-size:20px">Transition Process:</p>
+                        <ul id="transitionList">
+                        </ul>
+                        <p5 style="color: black font-size:30px"><br>RESULT:</p>
+                        <h3 id="results" style="font-size: 15px"></h3>
+                      </div>
+                      <br>
+                      <div class="node-container" id="node-container">
+                      </div> 
+                    </div>
+
+
                     <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design-tab">
                             <div class="row">
                                     <div class="col-xl-4 col-lg-4 col-md-6 ">
