@@ -95,49 +95,63 @@
 	<!-- Start Sample Area -->
 	<section class="sample-text-area" style="background-color: #d8d8ed;" >
 		<div class="container box_1170">
-			<h3 class="text-heading" style="color:black">
-				<b style="color:black">DFA (Deterministic Finite Automata)</b><br></h3>
-			<p class="sample-text" style="color:black; font-size: 25px;">
-				In DFA, for each input symbol, one can determine the state to which the machine will move. Hence, it is called Deterministic Automaton. As it has a finite number of states, the machine is called Deterministic Finite Machine or Deterministic Finite Automaton.<br><br>
-				<br><b style="color:black; font-size: 25px">Formal Definition of a DFA</b><br>
-				A DFA can be represented by a 5-tuple (Q, ∑, δ, q0, F) where −<br>
-				<ul style="color:black; font-size: 25px">
-					<li>→Q is a finite set of states.</li>
-					<li>→∑ is a finite set of symbols called the alphabet.</li>
-					<li>→δ is the transition function where δ: Q × ∑ → Q</li>
-					<li>→q0 is the initial state from where any input is processed (q0 ∈ Q).</li>
-					<li>→F is a set of final state/states of Q (F ⊆ Q).</li>
-				</ul>
-				<p style="color:black; font-size: 25px"><br><br>Graphical Representation of a DFA</p>
-				<p style="color:black; font-size: 25px">A DFA is represented by digraphs called state diagram.</p>
-				<ul style="color:black; font-size: 25px">
-					<li>→The vertices represent the states.</li>
-					<li>→The arcs labeled with an input alphabet show the transitions.</li>
-					<li>→The initial state is denoted by an empty single incoming arc.</li>
-					<li>→The final state is indicated by double circles.</li>
-				</ul>
-					<br><p style="color:black; font-size: 25px">Example:</p>
-				    <p style="color:black; font-size: 25px"> Let a deterministic finite automaton be </p>
-				<ul style="color:black; font-size: 25px">	
+			<h3 class="text-heading">DFA (Deterministic Finite Automata)</h3>
+			<p class="sample-text" style="color:black; font-size: 20px;">
+				In DFA, for each input symbol, one can determine the state to which the machine will move. Hence, 
+				it is called <b>Deterministic Automaton</b>. As it has a finite number of states, the machine is called 
+				Deterministic Finite Machine or Deterministic Finite Automaton.</p>
+			<br>
+			<div class="section-top-border">
+			<div class="row" align="center">
+				<div class="col-md-6">
+					<div class="single-defination" align="left">
+						<h4 class="mb-20">Formal Definition of a DFA</h4>
+						<pre style="color:black; font-size: 18px; font-family:font-awesome;">A DFA can be represented by a 5-tuple (Q, ∑, δ, q0, F) where −
+  →Q is a finite set of states.
+  →∑ is a finite set of symbols called the alphabet.
+  →δ is the transition function where δ: Q × ∑ → Q
+  →q0 is the initial state from where any input is processed 
+   (q0 ∈ Q).
+  →F is a set of final state/states of Q (F ⊆ Q).
+						</pre>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="single-defination" align="left">
+						<h4 class="mb-20">Graphical Representation of a DFA</h4>
+						<pre style="color:black; font-size: 18px; font-family:font-awesome;">A DFA is represented by digraphs called state diagram.
+  →The vertices represent the states.
+  →The arcs labeled with an input alphabet show the transitions.
+  →The initial state is denoted by an empty single incoming arc.
+  →The final state is indicated by double circles.
+						</pre>
+					</div>
+				</div>
+			</div>
+		</div>
+			<p style="color:black; font-size: 25px">Example:</p>
+		    <p style="color:black; font-size: 20px"> Let a deterministic finite automaton be </p>
+				<ul style="color:black; font-size: 20px">	
 					<li>→Q = {a, b, c},</li>
 					<li>→∑ = {0, 1},</li>
 					<li>→q0 = {a},</li>
 					<li>→F = {c}, and</li>
 				</ul>
-				<p style="font-size: 25px; color:black">Transition function δ as shown by the following table:</p>
-				<div class="col-md-10">
+				<br><p style="font-size: 20px; color:black">Transition function δ as shown by the following table:</p>
+				<center><div class="col-md-10">
 						<a href="img/dfatable.png" class="img-pop-up">
-							<div class="single-gallery-image" style="background: url(img/dfatable.png); " height="260" width="800"></div>
+							<div class="single-gallery-image" style="background: url(img/dfatable.png);" height="260" width="800"></div>
 						</a>
-				</div>
-				<p style="font-size: 25px; color:black">Its graphical representation would be as follows:</p>
-				<div class="col-md-8">
+				</div></center>
+				<br>
+				<p style="font-size: 20px; color:black">Its graphical representation would be as follows:</p>
+				<center><div class="col-md-8">
 						<a href="img/dfagraph.png" class="img-pop-up">
 							<div class="single-gallery-image" style="background: url(img/dfagraph.png); "></div>
 						</a>
-				</div>
-			</p>
-            <a href='exercises.html' class="genric-btn primary-border circle">Click to Procede to Example</a>
+				</div></center>
+			</p><br>
+            <center><a href='exercises.html' class="genric-btn primary-border circle">Click to Procede to Example</a></center>
 		</div>
 	</section>
 	<!-- End Sample Area -->
