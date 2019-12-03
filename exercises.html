@@ -142,7 +142,7 @@
                         <p style="font-size: 20px; color: black"><b>Example number 2:</b></p>
                         <p style="color:black">Design a FA with ∑ = {0, 1} accepts the only input 101.<br>
                         Solution:<br>.</p>
-                        <img src="img/dfaex2.png">
+                        <img src="img/dfaex2.png" width="450" height="50">
                         <p style="color:black">In the given solution, we can see that only input 101 will be accepted. Hence, for input 101, there is no other path shown for other input.</p>
 
                         <p style="font-size: 20px; color: black"><b>Example number 3:</b></p>
@@ -183,9 +183,36 @@
                       <div class="node-container" id="node-container">
                       </div> 
                   </div>
-
-
+<!---Example 2-->
                     <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design-tab">
+                        <h1 style="font-size: 30px; color: black">Examples</h1>
+                        <p style="font-size: 20px; color: black"><b>Example number 1:</b></p>
+                        <p style="color:black">Q = {q0, q1, q2}<br> 
+                        ∑ = {0, 1}  <br>
+                        q0 = {q0}<br>  
+                        F = {q2} <br>
+                        Solution:<br>
+                        Transition Diagram:</p>
+                        <img src="img/nfaex1.png">
+                        <p style="color:black">Transition Table:</p>
+                        <img src="img/nfaTex1.png">
+                        <p style="color:black">In the above diagram, we can see that when the current state is q0, on input 0, the next state will be q0 or q1, and on 1 input the next state will be q1. When the current state is q1, on input 0 the next state will be q2 and on 1 input, the next state will be q0. When the current state is q2, on 0 input the next state is q2, and on 1 input the next state will be q1 or q2.</p>
+
+                        <p style="font-size: 20px; color: black"><b>Example number 2:</b></p>
+                        <p style="color:black">NFA with ∑ = {0, 1} accepts all strings with 01.<br>
+                        Solution:<br>.</p>
+                        <img src="img/nfaex2.png">
+                        <p style="color:black">Transition Table:</p>
+                        <img src="img/nfaTex2.png"><br>
+
+                        <p style="font-size: 20px; color: black"><b>Example number 3:</b></p>
+                        <p style="color:black">NFA with ∑ = {0, 1} and accept all string of length atleast 2.<br>
+                        Solution:<br></p>
+                        <img src="img/nfaex3.png">
+                        <p style="color:black">Transition Table:</p>
+                        <img src="img/nfaTex3.png"><br>
+                    </div>
+                   <!-- <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design-tab">
                             <div class="row">
                                     <div class="col-xl-4 col-lg-4 col-md-6 ">
                                         <div class="single_courses">
@@ -341,7 +368,7 @@
                                         </div>
                                     </div>
                                 </div>
-                    </div>
+                    </div>-->
 
                                     <div class="col-xl-12">
                                         <div class="more_courses text-center">
