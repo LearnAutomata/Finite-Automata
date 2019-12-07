@@ -1,4 +1,4 @@
-<?php
+<php
 
     $to = "learnautomata2@gmail.com";
     $from = $_REQUEST['email'];
